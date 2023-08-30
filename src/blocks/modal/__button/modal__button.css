@@ -1,6 +1,4 @@
-
-
-.modal__next-button  {
+.modal__next-button {
     position: absolute;
     width: 20%;
     height: 30px;
@@ -29,7 +27,7 @@
     position: absolute;
     background-color: white;
     color: black;
-    border: 15px double rgba(115,8,8,0.58);
+    border: 15px double rgba(115, 8, 8, 0.58);
     border-radius: 68px;
     padding: 12px;
     bottom: -102px;
@@ -37,14 +35,14 @@
     font-size: 20px;
 }
 
-@media screen and  (min-width:320px) and (max-width:480px){
-    .modal__finish-button {       
+@media screen and (min-width:320px) and (max-width:480px) {
+    .modal__finish-button {
         left: 30%;
     }
 }
 
-@media screen and  (min-width:650px) and (max-width:850px){
-    .modal__finish-button {       
+@media screen and (min-width:650px) and (max-width:850px) {
+    .modal__finish-button {
         left: 38%;
     }
 }

@@ -1,6 +1,6 @@
 @import url(./menudown/menudown.css);
 
-.header__menu{
+.header__menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +14,8 @@
     color: #ffffff;
 }
 
-@media screen and (min-width:320px) and (max-width:850px){
-    .header__menu{
+@media screen and (min-width:320px) and (max-width:850px) {
+    .header__menu {
         margin-right: 50px
     }
 }

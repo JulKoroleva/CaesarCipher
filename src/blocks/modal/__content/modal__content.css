@@ -4,28 +4,27 @@
 @import url(./_alert/modal__content_alert.css);
 
 .modal__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; 
-    align-items: flex-start; 
-    position: relative; 
-    top: 240px; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    max-width: 700px;
-    max-height: 300px;
-    background:#c8ae9b;
-    border: 15px double rgba(115,8,8,0.58);
-    border-radius: 20px;
-    z-index: 140;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+  top: 240px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+  max-height: 300px;
+  background: #c8ae9b;
+  border: 15px double rgba(115, 8, 8, 0.58);
+  border-radius: 20px;
+  z-index: 140;
+}
+
+
+@media screen and (min-width:320px) and (max-width:750px) {
+  .modal__content {
+    width: 90vw;
+    max-height: 80%;
+    top: 230px;
   }
-
-
-
-  @media screen and (min-width:320px) and (max-width:750px){
-    .modal__content{
-        width: 90vw;
-        max-height: 80%;
-        top: 230px;
-    }
 }

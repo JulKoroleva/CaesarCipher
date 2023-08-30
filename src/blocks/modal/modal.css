@@ -6,15 +6,15 @@
 @import url(./modal-alert/modal-alert.css);
 
 .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.664);
-    justify-items: center;
-    align-items: center;
-    z-index: 60;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.664);
+  justify-items: center;
+  align-items: center;
+  z-index: 60;
 
-  }
+}

@@ -1,6 +1,6 @@
 @import url(./__container/add-lang__container.css);
 
-.add-lang{
+.add-lang {
     display: none;
     position: fixed;
     top: 0;

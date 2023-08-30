@@ -1,9 +1,8 @@
-
-.input__block_deshif{
+.input__block_deshif {
     resize: none;
     outline: none;
     text-align: start;
-    overflow : auto;
+    overflow: auto;
     background: transparent;
     border-style: none;
     overflow: auto;

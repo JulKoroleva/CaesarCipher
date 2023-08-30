@@ -1,6 +1,4 @@
-   
-
-.block__shif{
+.block__shif {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -10,10 +8,10 @@
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 25px;
-    
+
 }
 
-.title__shif{
+.title__shif {
     color: rgb(128 45 45);
     margin: auto;
     font-family: "Courier New", Courier, monospace;
@@ -26,11 +24,11 @@
     font-style: normal;
     font-variant: normal;
     text-transform: uppercase;
-    
+
 }
 
 
-@media screen and (min-width:320px) and (max-width:850px){
+@media screen and (min-width:320px) and (max-width:850px) {
     .block__shif {
         width: 100%;
     }

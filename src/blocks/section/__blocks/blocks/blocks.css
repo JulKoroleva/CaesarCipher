@@ -1,6 +1,6 @@
 @import url(./block/block.css);
 
-.blocks{
+.blocks {
     display: flex;
     justify-content: space-between;
     flex-direction: row;

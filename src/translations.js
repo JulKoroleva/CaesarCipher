@@ -8,7 +8,7 @@ export const translations = {
         startButton: 'Поехали!',
         copyButton: 'Копировать!',
 
-        modals : { 
+        modals: {
             modalOne: {
                 title: 'Ave!',
                 text: 'Подобно звездам на небесном своде, я, Юлий Цезарь, великий правитель Римской империи, обращаюсь к тебе сквозь пелену веков и пространства. Великий Цезарь ведом твоему присутствию. Как ветер, что мчится сквозь века, так и мои заслуги и слава остались невозмутимыми. Позволь вниманию твоему представить величественный шифр, созданный мною – Шифр Цезаря! Напиши свое послание, окутанное тайной, ибо перед тобой открываются двери в мир моего гения. Аве Цезарь!',
@@ -39,7 +39,7 @@ export const translations = {
 
         modalAddLangTitle: 'Загрузите файл:',
         modalAddLangText: '*Буквы и знаки "алфавита" должны написаны через запятую. Например: a, ы, л, д, в',
-        nextButton : 'Далее',
+        nextButton: 'Далее',
         finishButton: 'Ave Цезарь!'
     },
 
@@ -51,7 +51,7 @@ export const translations = {
         startButton: 'Let`s start!',
         copyButton: 'Copy!',
 
-        modals : { 
+        modals: {
             modalOne: {
                 title: 'Ave!',
                 text: 'Like stars in the firmament of heaven, I, Julius Caesar, the greatest ruler of the Roman Empire, appeal to you through the veil of centuries and space. The great Caesar is aware of your presence. Like the wind that rushes through the ages, so my merits and glory remained imperturbable. Allow your attention to present the majestic cipher that I created - the Caesar Cipher! Write your message, shrouded in mystery, for the doors to the world of my genius are opening before you. Ave Caesar!',
@@ -79,10 +79,10 @@ export const translations = {
                 text: '«Remember, dear friend, that every foe can grasp this simple magic. For added security, opt for higher key values to render the secret more resistant to decryption. Your power lies in how you wield this cipher. Disclose it solely to the worthy, and you shall attain heights akin to my victories!»',
             }
         },
- 
+
         modalAddLangTitle: 'UPLOAD THE FILE:',
         modalAddLangText: '*The letters and characters of the "alphabet" should be written separated by commas. For example: a, p, h, w',
-        nextButton : 'Next',
+        nextButton: 'Next',
         finishButton: 'Ave Caesar!'
     }
 
