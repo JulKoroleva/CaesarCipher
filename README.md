@@ -46,6 +46,6 @@ The Caesar cipher is one of the simplest and oldest encryption techniques. It wo
 The Caesar Cipher app is designed to work across a wide range of modern web browsers. It dynamically adapts its language to match your browser's settings, making it accessible and user-friendly.
 
 ## Feedback and Contributions
-If you have any suggestions, feedback, or would like to contribute to this project, please feel free to [open an issue](https://github.com/JulKoroleva/CaesarCipher/issues) or [submit a pull request](https://github.com/JulKoroleva/CaesarCipher/pulls). We appreciate your input!
+If you have any suggestions, feedback, or would like to contribute to this project, please feel free to [open an issue](https://github.com/JulKoroleva/CaesarCipher/issues) or [submit a pull request](https://github.com/JulKoroleva/CaesarCipher/pulls). I appreciate your input!
 
 *Thank you for checking out the Caesar Cipher app! We hope you find it useful and enjoy experimenting with this classic encryption technique. If you have any questions, feel free to reach out to us.*
