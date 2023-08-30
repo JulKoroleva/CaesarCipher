@@ -33,7 +33,7 @@ Welcome to the Caesar Cipher App! This is a simple yet powerful tool that allows
   
 3. Navigate to the project directory.
     `cd CaesarCipher`
- 4. Build the Docker image for the Caesar Cipher App.
+ 4. Build the Docker image for the Caesar Cipher app.
  `docker build -t caesar-cipher-app .`
  5. Run the Docker container with the built image.
  `docker run -p 8080:80 caesar-cipher-app`
@@ -43,9 +43,9 @@ Welcome to the Caesar Cipher App! This is a simple yet powerful tool that allows
 The Caesar cipher is one of the simplest and oldest encryption techniques. It works by shifting each letter in the plaintext by a fixed number of positions down or up the alphabet. This app preserves the original alphabet of the text, ensuring that both the encryption and decryption maintain the same character set.
 
 ## Browser Compatibility
-The Caesar Cipher App is designed to work across a wide range of modern web browsers. It dynamically adapts its language to match your browser's settings, making it accessible and user-friendly.
+The Caesar Cipher app is designed to work across a wide range of modern web browsers. It dynamically adapts its language to match your browser's settings, making it accessible and user-friendly.
 
 ## Feedback and Contributions
 If you have any suggestions, feedback, or would like to contribute to this project, please feel free to [open an issue](https://github.com/JulKoroleva/CaesarCipher/issues) or [submit a pull request](https://github.com/JulKoroleva/CaesarCipher/pulls). We appreciate your input!
 
-*Thank you for checking out the Caesar Cipher App! We hope you find it useful and enjoy experimenting with this classic encryption technique. If you have any questions, feel free to reach out to us.*
+*Thank you for checking out the Caesar Cipher app! We hope you find it useful and enjoy experimenting with this classic encryption technique. If you have any questions, feel free to reach out to us.*
