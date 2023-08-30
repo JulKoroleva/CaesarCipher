@@ -1,0 +1,15 @@
+@import url(./__container/add-lang__container.css);
+
+.add-lang{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.664);
+    justify-items: center;
+    align-items: center;
+
+
+}

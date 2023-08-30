@@ -1,0 +1,14 @@
+.input__block_shif{
+    resize: none;
+    outline: none;
+    text-align: start;
+    overflow : hidden;
+    background: transparent;
+    border-style: none;
+    overflow: hidden;
+    margin: 20px;
+    padding: 0;
+    border: none;
+    width: 90%;
+    height: 100%;
+}

@@ -1,0 +1,19 @@
+@import url(./blocks/blocks.css);
+
+.section__blocks{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    max-width: 1105px;
+    margin: auto;
+}
+
+@media screen and (min-width:320px) and (max-width:850px){
+    .section__blocks{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 90vw;
+        margin: auto;
+    }
+}

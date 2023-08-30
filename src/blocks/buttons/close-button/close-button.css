@@ -1,0 +1,13 @@
+
+.close-button{
+    position: absolute;
+    top: -50px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: #D9D9D9;
+    background-image: url('/src/images/close.png');
+    background-size: cover;
+}

@@ -1,0 +1,23 @@
+
+.menubtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  width: 100px;
+  height: 100%;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  background-color:rgb(255, 255, 255);
+
+  }
+  
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .menubtn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  

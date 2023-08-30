@@ -1,0 +1,15 @@
+
+.input__block_deshif{
+    resize: none;
+    outline: none;
+    text-align: start;
+    overflow : auto;
+    background: transparent;
+    border-style: none;
+    overflow: auto;
+    margin: 20px;
+    padding: 0;
+    border: none;
+    width: 90%;
+    height: 100%;
+}

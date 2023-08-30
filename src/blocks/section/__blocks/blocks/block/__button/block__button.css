@@ -1,0 +1,119 @@
+
+
+.block__button_shif{
+    width: 175px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #D9D9D9;
+    overflow: hidden;
+    border: 5px double rgba(120, 166, 2, 0.58);
+    
+}
+.block__button_deshif{
+    align-self: right;
+    width: 175px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #D9D9D9;
+    overflow: hidden;
+    border: 5px double rgba(166, 2, 2, 0.58);
+}
+
+
+.button__start{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.button__start:hover {
+    border:none;
+
+    cursor: pointer; 
+    opacity: 0.3;
+}
+
+.button__copy{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.button__copy:hover {
+    border:none;
+
+    cursor: pointer; 
+    opacity: 0.3;
+}
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+    
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    
+    
+    
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url('/src/images/menu.png');
+    background-size: cover;
+    
+  }
+  
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .dropbtn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    right: 0;
+    margin: auto 0px;
+    background-color: transparent;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #D9D9D9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    width: 300px;
+    overflow: hidden;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content button{
+    color: black;
+    background-color: #D9D9D9;
+    padding: 12px 16px;
+    border: none;
+    display: block;
+    width: 100%;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content button:hover {
+    background-color: darkgrey;
+    border:none;
+    cursor: pointer;
+  }
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {
+    display: flex;
+    flex-direction: column;
+    float: right
+    
+}

@@ -1,0 +1,17 @@
+
+.add-lang__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center; 
+    position: relative; 
+    top: 20px; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 350px;
+    height: 200px;
+    background:#c8ae9b;
+    border: 10px double rgba(115,8,8,0.58);
+    border-radius: 20px;
+    z-index: 125;
+}

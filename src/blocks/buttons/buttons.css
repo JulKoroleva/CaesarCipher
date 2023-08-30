@@ -1,0 +1,28 @@
+@import url(./close-button/close-button.css);
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    }
+
+    
+
+button:hover{
+    
+    cursor: pointer;
+}
+
+
+
+
+.encryptButton,.decryptButton{
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}

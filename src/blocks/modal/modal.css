@@ -1,0 +1,20 @@
+@import url(./__button/modal__button.css);
+@import url(./__character_image/modal__character_image.css);
+@import url(./__close-button/modal__close-button.css);
+@import url(./__content/modal__content.css);
+@import url(./__opened/modal__opened.css);
+@import url(./modal-alert/modal-alert.css);
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.664);
+    justify-items: center;
+    align-items: center;
+    z-index: 60;
+
+  }

@@ -1,0 +1,42 @@
+
+.modal__content_text{
+    width: 58%;
+    font-size: 16px;
+    margin: 0 0 10px 20px;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.modal__content_text_only {
+    width: 90%;
+    margin: 10px auto 15px;
+    font-size: 14px;
+   
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
+@media screen and (min-width:320px) and (max-width:650px){
+    .modal__content_text_only, .modal__content_text {
+        font-size: 10px;
+    }
+    
+    .modal__content_text{
+        width: 65%;
+    }
+}

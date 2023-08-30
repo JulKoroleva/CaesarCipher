@@ -1,0 +1,18 @@
+@import url(./__button/block__button.css);
+@import url(./__deshif/block__deshif.css);
+@import url(./__name/block__name.css);
+@import url(./__shif/block__shif.css);
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+@media screen and (min-width:320px) and (max-width:850px){
+    .block {
+        margin-bottom: 60px;
+        width: 90vw;
+        max-width: 440px;
+    }
+}

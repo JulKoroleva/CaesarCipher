@@ -1,0 +1,9 @@
+@import url(./block/block.css);
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: max-content;
+    margin-top: 40px;
+}

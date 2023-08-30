@@ -1,0 +1,6 @@
+.modal__character_image {
+    position: absolute;
+    width: 35%;
+    right: -32px;
+    bottom: 0px;
+}
