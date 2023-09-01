@@ -5,6 +5,9 @@
 ![#Laurel Leaves](https://i.postimg.cc/qRXhPyhk/logo.png)
 </div>
 
+## About Caesar Cipher
+The Caesar cipher is one of the simplest and oldest encryption techniques. It works by shifting each letter in the plaintext by a fixed number of positions down or up the alphabet. This app preserves the original alphabet of the text, ensuring that both the encryption and decryption maintain the same character set.
+
 ## Features
 -   **Language Detection**: The app automatically detects the language of your browser and adjusts its user interface to be either in English or Russian accordingly.
     
@@ -55,8 +58,7 @@
     
  6. Open your web browser and go to `http://localhost:8080` to access the Caesar Cipher app.
 
-## About Caesar Cipher
-The Caesar cipher is one of the simplest and oldest encryption techniques. It works by shifting each letter in the plaintext by a fixed number of positions down or up the alphabet. This app preserves the original alphabet of the text, ensuring that both the encryption and decryption maintain the same character set.
+
 
 ## Browser Compatibility
 The Caesar Cipher app is designed to work across a wide range of modern web browsers. It dynamically adapts its language to match your browser's settings, making it accessible and user-friendly.
