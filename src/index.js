@@ -32,6 +32,7 @@ const menudownButton = document.querySelector('.header__menu');
 const alertModal = document.querySelector('.modal-alert');
 const alertText = alertModal.querySelector('.modal__content_text');
 
+
 let currentModalIndex = 0;
 
 let currentAlph = null;
@@ -75,8 +76,8 @@ const cipherCeaser = new CipherCeaser(currentAlph, shifr.value);
 let inputText = document.querySelector('.input__block_shif');
 let outputText = document.querySelector('.input__block_deshif')
 
-/* Когда пользователь нажимает на кнопку,
-переключение между скрытием и отображением раскрывающегося содержимого */
+/* When the user clicks on the button,
+toggle between hiding and showing dropdown content */
 function openMenu() {
   document.getElementById("dropdown").classList.toggle("show");
 }
@@ -86,7 +87,7 @@ menuButton.addEventListener('click', () => {
   openMenu();
 })
 
-// Закройте выпадающее меню, если пользователь щелкает за его пределами
+// Close the dropdown menu if the user clicks outside of it
 function openDropdown(event) {
   console.log('dropdown')
   if (!event.target.matches('.dropbtn')) {
@@ -215,11 +216,13 @@ function parseFileAlph(content) {
 }
 
 inputFile.onchange = function (event) {
+  let translation = translations[lang]
+
   console.log('inputFile.onchange !!!');
   console.log('input = ', event)
 
   if (event.srcElement.files.length > 1) {
-    showModal('Упс!', 'Можно добавить только один файл за раз.');
+    showModal(translation.errors.addFileTitle, translation.errors.addFileOnlyOne);
     return;
   }
 
@@ -229,19 +232,18 @@ inputFile.onchange = function (event) {
   const langName = fileName.substring(0, fileName.length - 4);
   console.log('langName = ', langName);
 
-  //alert(`File name: ${file.name}`); // например, my.png
-  //alert(`Last modified: ${file.lastModified}`); // например, 1552830408824
 
   const reader = new FileReader();
 
   reader.readAsText(file);
 
   reader.onload = function () {
+    let translation = translations[lang]
     console.log('reader.result = ', reader.result);
     const rawFileAlph = reader.result;
     const userCustomAlph = parseFileAlph(rawFileAlph);
     if (userCustomAlph === null) {
-      showModal('Упс!', 'Добавьте файл .txt формата.');
+      showModal(translation.errors.addFileTitle, translation.errors.addFileTxt);
       return;
     } else {
       console.log('userCustomAlph = ', userCustomAlph);
@@ -251,7 +253,7 @@ inputFile.onchange = function (event) {
       };
       objAlphArr.unshift(userCustomAlphObj);
       openModalWindow()
-      showModal('Великолепно!', 'Алфавит успешно добавлен, теперь вы можете увидеть его в спискею')
+      showModal(translation.successfulModal.title, translation.successfulModal.text)
     }
   };
 
@@ -264,16 +266,18 @@ inputFile.onchange = function (event) {
 
 startButton.addEventListener('click', () => {
 
+  let translation = translations[lang]
+
   if (menuButtonLang.innerHTML === "Language" || menuButtonLang.innerHTML === "Язык") {
     // Show the language selection modal instead of using alert
-    showModal('Что-то пошло не так!', 'Пожалуйста, выберите язык шифрования.');
+    showModal(translation.errors.choseLangAndOperationTitle, translation.errors.choseLang);
     return;
   }
 
   if (title.innerHTML === "") {
     console.log('title.innerHTML', title.innerHTML)
     // Show the operation choice modal
-    showModal('Что-то пошло не так!', 'Пожалуйста, выберите необходимую операцию.');
+    showModal(translation.errors.choseLangAndOperationTitle, translation.errors.choseOperation);
     return;
   }
 
@@ -313,6 +317,7 @@ function showModal(title, message) {
   const alertModal = document.querySelector('.modal-alert');
   const alertText = alertModal.querySelector('.modal__content_text_only');
   const alertTitle = alertModal.querySelector('.modal__content_title');
+  
 
   alertTitle.textContent = title;
   alertText.textContent = message;
@@ -399,6 +404,7 @@ function setLanguage() {
   }
 
   let translation = translations[lang]
+
   document.querySelector('.menubtn').textContent = translation.langButton;
   document.querySelector('.encryptButton').textContent = translation.encryptButton;
   document.querySelector('.decryptButton').textContent = translation.decryptButton;
@@ -417,6 +423,9 @@ function setLanguage() {
   finishButton.forEach(button => {
     button.textContent = translation.finishButton;
   });
+
+  const textarea = document.querySelector('.input__block_shif');
+  textarea.placeholder = translation.textarea;
 
   const modalOne = document.querySelector('.modal-one');
   modalOne.querySelector('.modal__content_title').textContent = translation.modals.modalOne.title;

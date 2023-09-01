@@ -5,6 +5,7 @@ export const translations = {
         langButton: 'Язык',
         encryptButton: 'зашифровать',
         decryptButton: 'расшифровать',
+        textarea: 'Напишите сообщение...',
         startButton: 'Поехали!',
         copyButton: 'Копировать!',
 
@@ -37,6 +38,21 @@ export const translations = {
             }
         },
 
+        errors: {
+            choseLangAndOperationTitle: 'Что-то пошло не так!',
+            choseLang: 'Пожалуйста, выберите язык шифрования.',
+            choseOperation: 'Пожалуйста, выберите необходимую операцию.',
+            addFileTitle: 'Упс!',
+            addFileTxt: 'Добавьте файл .txt формата.',
+            addFileOnlyOne: 'Можно добавить только один файл за раз.'
+
+        },
+
+        successfulModal: {
+            title: 'Великолепно!',
+            text: 'Алфавит успешно добавлен, теперь вы можете увидеть его в списке.'
+        },
+
         modalAddLangTitle: 'Загрузите файл:',
         modalAddLangText: '*Буквы и знаки "алфавита" должны написаны через запятую. Например: a, ы, л, д, в',
         nextButton: 'Далее',
@@ -48,6 +64,7 @@ export const translations = {
         langButton: 'Language',
         encryptButton: 'encryption',
         decryptButton: 'decryption',
+        textarea: 'Write your message...',
         startButton: 'Let`s start!',
         copyButton: 'Copy!',
 
@@ -78,6 +95,20 @@ export const translations = {
                 title: 'Ave atque vale!',
                 text: '«Remember, dear friend, that every foe can grasp this simple magic. For added security, opt for higher key values to render the secret more resistant to decryption. Your power lies in how you wield this cipher. Disclose it solely to the worthy, and you shall attain heights akin to my victories!»',
             }
+        },
+
+        errors: {
+            choseLangAndOperationTitle: 'Something went wrong!',
+            choseLang: 'Please select an encryption language.',
+            choseOperation: 'Please select the required operation.',
+            addFileTitle: 'Oops!',
+            addFileTxt: 'Add a .txt format file.',
+            addFileOnlyOne: 'Only one file can be added at a time.'
+        },
+
+        successfulModal: {
+            title: 'Great!',
+            text: 'Alphabet added successfully, now you can see it in the list.'
         },
 
         modalAddLangTitle: 'UPLOAD THE FILE:',
