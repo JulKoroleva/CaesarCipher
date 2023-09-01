@@ -1,7 +1,9 @@
-# Caesar Cipher
+<div align="center">
+    <h1>Caesar Cipher</h1> 
+    <p>Welcome to the Caesar Cipher App! This is a simple yet powerful tool that allows you to encrypt and decrypt text using the Caesar cipher technique. The Caesar cipher involves shifting letters by a certain number of positions within the same alphabet. This project supports both English and Russian languages, and the language of the app is automatically determined by your browser settings.</p>
 
-Welcome to the Caesar Cipher App! This is a simple yet powerful tool that allows you to encrypt and decrypt text using the Caesar cipher technique. The Caesar cipher involves shifting letters by a certain number of positions within the same alphabet. This project supports both English and Russian languages, and the language of the app is automatically determined by your browser settings.
-
+![#Laurel Leaves](https://i.postimg.cc/qRXhPyhk/logo.png)
+</div>
 ## Features
 -   **Language Detection**: The app automatically detects the language of your browser and adjusts its user interface to be either in English or Russian accordingly.
     
@@ -49,3 +51,4 @@ The Caesar Cipher app is designed to work across a wide range of modern web brow
 If you have any suggestions, feedback, or would like to contribute to this project, please feel free to [open an issue](https://github.com/JulKoroleva/CaesarCipher/issues) or [submit a pull request](https://github.com/JulKoroleva/CaesarCipher/pulls). I appreciate your input!
 
 *Thank you for checking out the Caesar Cipher app! We hope you find it useful and enjoy experimenting with this classic encryption technique. If you have any questions, feel free to reach out to me.*
+![#Laurel Leaves](https://i.postimg.cc/9fMnRQpY/divider-6752864-1920.png)
