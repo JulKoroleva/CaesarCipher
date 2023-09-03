@@ -1,4 +1,4 @@
-export class CipherCeaser {
+export class CaesarCipher {
     constructor(alph, shifr) {
         this.alph = alph;
         this.shifr = shifr;
@@ -332,12 +332,12 @@ export class CipherCeaser {
 
 const someAlph = ['а', 'б', 'в', 'г', 'д'];
 const shifr = 13;
-const cipherCeaserObject = new CipherCeaser(someAlph, shifr);
-//cipherCeaserObject.globalTest();
+const caesarCipherObject = new CaesarCipher(someAlph, shifr);
+//caesarCipherObject.globalTest();
 
 const plainText = "абв";
-const encryptedText = cipherCeaserObject.encrypt(plainText);
-const decryptedText = cipherCeaserObject.decrypt(encryptedText);
+const encryptedText = caesarCipherObject.encrypt(plainText);
+const decryptedText = caesarCipherObject.decrypt(encryptedText);
 
 console.log('decryptedText = ', decryptedText);
 

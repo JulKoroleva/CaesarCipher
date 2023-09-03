@@ -1,7 +1,7 @@
 
 import './index.css';
 
-import { CipherCeaser } from "./CipherCeaser.js"
+import { CaesarCipher } from "./CaesarCipher.js"
 import { translations } from "./translations.js"
 
 const menuButtonLang = document.querySelector('.menubtn');
@@ -71,7 +71,7 @@ const objAlphArr = [
   addUserAlph,
 ];
 
-const cipherCeaser = new CipherCeaser(currentAlph, shifr.value);
+const caesarCipher = new CaesarCipher(currentAlph, shifr.value);
 
 let inputText = document.querySelector('.input__block_shif');
 let outputText = document.querySelector('.input__block_deshif')
@@ -285,14 +285,14 @@ startButton.addEventListener('click', () => {
 
   if (title.innerHTML === "encryption" || title.innerHTML === "зашифровать") {
     console.log('its encryption');
-    const resEncrypt = cipherCeaser.encrypt(inputText.value, Number(shifr.value), currentAlph)
+    const resEncrypt = caesarCipher.encrypt(inputText.value, Number(shifr.value), currentAlph)
     console.log('resEncrypt = ', resEncrypt)
     outputText.innerHTML = resEncrypt;
     console.log(' outputText.innerHTML = ', outputText.innerHTML)
   }
   if (title.innerHTML === "decryption" || title.innerHTML === "расшифровать") {
     console.log('its decryption');
-    const resDecrypt = cipherCeaser.decrypt(inputText.value, Number(shifr.value), currentAlph)
+    const resDecrypt = caesarCipher.decrypt(inputText.value, Number(shifr.value), currentAlph)
     console.log('resDecrypt = ', resDecrypt)
     outputText.innerHTML = resDecrypt;
     console.log(' outputText.innerHTML = ', outputText.innerHTML)
