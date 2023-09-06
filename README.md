@@ -54,7 +54,7 @@ The Caesar cipher is one of the simplest and oldest encryption techniques. It wo
     
  5. Run the Docker container with the built image.
     
-     `docker run -p 8080:80 caesar-cipher-app`
+     `docker run -p 8080:8080 caesar-cipher-app`
     
  6. Open your web browser and go to `http://localhost:8080` to access the Caesar Cipher app.
 
