@@ -395,11 +395,15 @@ function enableScroll() {
 
 
 function setLanguage() {
-  const browserLanguage = window.navigator.language;
+  const browserLanguage = window.navigator.language || window.navigator.userLanguage;
+  console.log('browserLanguage = ', browserLanguage
+  )
   let lang = '';
-  if (browserLanguage === 'ru') {
-    lang = browserLanguage
+  if (browserLanguage.toLowerCase() === 'ru' || browserLanguage === 'ru-RU' ) {
+    document.documentElement.lang = 'ru';
+    lang = 'ru'
   } else {
+    document.documentElement.lang = 'en';
     lang = 'en'
   }
 
